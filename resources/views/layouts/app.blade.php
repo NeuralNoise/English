@@ -13,7 +13,7 @@
 		<!-- Styles -->
     @yield('styles')
 		<link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
-		<link rel="stylesheet" href="{{ asset('semantic/semantic.min.css')}}">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
 
 		<!-- Scripts -->
@@ -30,10 +30,10 @@
 	@yield('content')
 	@yield('registration')
 	<!-- Scripts -->
-  <script src="{{ asset('js/jquery.min.js') }}"></script>
-  <script src="{{ asset('semantic/semantic.min.js')}}" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ns-autogrow/1.1.6/jquery.ns-autogrow.min.js"></script>
 	@yield('scripts')
   <script src="{{ asset('js/script.js') }}"></script>
-  <script src="{{ asset('js/jquery.ns-autogrow.min.js') }}"></script>
 </body>
 </html>
