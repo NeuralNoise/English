@@ -12,7 +12,7 @@
 
 		<!-- Styles -->
     @yield('styles')
-		<link href="{{ asset('css/navbar.css') }}" rel="stylesheet">
+		<link href="{{ secure_asset('css/navbar.css') }}" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
 
@@ -34,6 +34,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ns-autogrow/1.1.6/jquery.ns-autogrow.min.js"></script>
 	@yield('scripts')
-  <script src="{{ asset('js/script.js') }}"></script>
+  <script src="{{ secure_asset('js/script.js') }}"></script>
 </body>
 </html>
