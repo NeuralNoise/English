@@ -29,7 +29,7 @@
 								<div class="ui dimmer">
 									<div class="content">
 										<div class="center">
-											<a class="ui inverted button" href="{{ url('/login') }}">Login</a>
+											<a class="ui inverted button" href="{{ route('login') }}">Login</a>
 										</div>
 									</div>
 								</div>
@@ -44,7 +44,7 @@
 								<div class="ui dimmer">
 									<div class="content">
 										<div class="center">
-											<a class="ui inverted button" href="{{ url('/register') }}">Register</a>
+											<a class="ui inverted button" href="{{ route('register') }}">Register</a>
 										</div>
 									</div>
 								</div>
