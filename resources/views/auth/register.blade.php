@@ -9,7 +9,7 @@
               {{ csrf_field() }}
               <div class="field{{ $errors->has('name') ? ' has-error' : '' }}">
                 <label for="name">Username</label>
-                <input id="name" type="text" name="name" value="{{ old('name') }}"  autofocus required>
+                <input id="name" type="text" name="name" value="{{ old('name') }}" autofocus required>
                 @if ($errors->has('name'))
                     <span>
                         <strong>{{ $errors->first('name') }}</strong>
